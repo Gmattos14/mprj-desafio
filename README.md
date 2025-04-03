@@ -40,12 +40,14 @@ cd nome-do-projeto
 Instale as dependências :
 
 node install
+
 npm install  vite
 
 
 Execute o projeto:
 
 node server.js
+
 npm run dev
 
 Acesse no navegador:
