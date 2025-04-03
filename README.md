@@ -1,12 +1,61 @@
-# React + Vite
+README - Página Web para Exibição de Informações Públicas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição do Projeto
 
-Currently, two official plugins are available:
+Este projeto consiste no desenvolvimento de uma página web que exibe informações extraídas de fontes públicas. Os dados são obtidos por meio do consumo de uma API pública, processados e apresentados de forma organizada na interface para facilitar o acesso e compreensão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funcionalidades
 
-## Expanding the ESLint configuration
+Consumo de API Pública: Requisição de dados de uma fonte pública, com tratamento e exibição organizada das informações.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filtros de Pesquisa: Possibilidade de filtrar os dados exibidos com base em critérios como:
+
+Ano
+Município
+Valor
+Objeto
+Enquadramento Legal
+Fornecedor
+
+
+
+Tecnologias Utilizadas
+
+Frontend: HTML, CSS, JavaScript e React
+
+Backend : Node.js
+
+API Pública: https://dados.tcerj.tc.br/api/v1/docs#/Estado/compras_diretas_estado_api_v1_compras_diretas_estado_get
+
+Como Executar o Projeto
+
+Clone este repositório:
+
+git clone https://github.com/Gmattos14/mprj-desafio.git
+
+Acesse o diretório do projeto:
+
+cd nome-do-projeto
+
+Instale as dependências :
+
+node install
+npm install  vite
+
+
+Execute o projeto:
+
+node server.js
+npm run dev
+
+Acesse no navegador:
+
+http://localhost:5173/
+
+e o banco de dados
+ 
+http://localhost:3000/compra
+
+
+
+
